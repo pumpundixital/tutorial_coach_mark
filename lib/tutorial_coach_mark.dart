@@ -45,7 +45,7 @@ class TutorialCoachMark {
         colorShadow: colorShadow,
         opacityShadow: opacityShadow,
         finish: () {
-          _hide();
+          hide();
           if (finish != null) finish();
         },
       );
