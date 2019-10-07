@@ -59,7 +59,7 @@ class TutorialCoachMark {
     }
   }
 
-  void _hide() {
+  void hide() {
     _overlayEntry?.remove();
     _overlayEntry = null;
   }
